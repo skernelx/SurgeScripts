@@ -1,7 +1,7 @@
 #!name=蔚来自动签到
 #!desc=蔚来APP全自动签到，支持Token自动抓取、定时签到、签到统计
 #!author=Kiro Assistant
-#!homepage=https://github.com/atopsecret/SurgeScripts
+#!homepage=https://github.com/skernelx/SurgeScripts
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NIO.png
 #!category=签到
 

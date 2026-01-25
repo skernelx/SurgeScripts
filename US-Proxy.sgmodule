@@ -1,10 +1,12 @@
 #!name=美国节点专用规则
-#!desc=Google、Gemini、Docker 等服务强制走美国节点
+#!desc=Google、Gemini、Docker 等服务强制走美国节点（优先匹配）
 #!author=skernelx
 #!homepage=https://github.com/skernelx/SurgeScripts
 #!icon=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/United_States.png
 
 [Rule]
+# 使用 %INSERT% 确保这些规则在其他规则之前匹配
+%INSERT%
 # > Google 服务
 DOMAIN-SUFFIX,google.com,"🇺🇸 美国节点"
 DOMAIN-SUFFIX,google.com.hk,"🇺🇸 美国节点"

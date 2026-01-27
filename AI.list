@@ -1,0 +1,243 @@
+# AI Services Domain Rules for Surge
+# Generated: 2026-01-27
+# Author: skernelx
+# Usage: RULE-SET,https://raw.githubusercontent.com/skernelx/SurgeScripts/main/AI.list,YourPolicyName
+
+# ============ OpenAI / ChatGPT ============
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaimerge.com
+DOMAIN,auth0.openai.com
+DOMAIN,chat.openai.com
+DOMAIN,ios.chat.openai.com
+DOMAIN,android.chat.openai.com
+DOMAIN,desktop.chat.openai.com
+DOMAIN,tcr9i.chat.openai.com
+DOMAIN,setup.auth.openai.com
+DOMAIN,cdn.openaimerge.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,sora.com
+
+# ============ Anthropic / Claude ============
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN,api.anthropic.com
+DOMAIN,statsig.anthropic.com
+DOMAIN,console.anthropic.com
+DOMAIN,docs.anthropic.com
+
+# ============ Google AI / Gemini / DeepMind ============
+DOMAIN,gemini.google.com
+DOMAIN,ai.google
+DOMAIN,aistudio.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,deepmind.google
+DOMAIN,deepmind.com
+DOMAIN,labs.google
+DOMAIN,bard.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN,notebooklm.google.com
+DOMAIN,notebooklm.google
+
+# ============ Microsoft / Copilot / Azure OpenAI ============
+DOMAIN,copilot.microsoft.com
+DOMAIN,copilot.cloud.microsoft
+DOMAIN,copilot.github.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN,www.bing.com
+DOMAIN,edgeservices.bing.com
+DOMAIN,sydney.bing.com
+DOMAIN-SUFFIX,bingapis.com
+DOMAIN-SUFFIX,microsoftcopilot.com
+
+# ============ Midjourney ============
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN,www.midjourney.com
+DOMAIN,cdn.midjourney.com
+
+# ============ Stability AI / Stable Diffusion ============
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,stabilityai.com
+DOMAIN,platform.stability.ai
+DOMAIN,dreamstudio.ai
+DOMAIN-SUFFIX,dreamstudio.ai
+
+# ============ Perplexity AI ============
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN,www.perplexity.ai
+DOMAIN,api.perplexity.ai
+
+# ============ Meta AI / LLaMA ============
+DOMAIN-SUFFIX,meta.ai
+DOMAIN,www.meta.ai
+DOMAIN,ai.meta.com
+DOMAIN,llama.meta.com
+
+# ============ xAI / Grok ============
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.x.ai
+DOMAIN,grok.com
+DOMAIN-SUFFIX,grok.com
+
+# ============ Mistral AI ============
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN,chat.mistral.ai
+DOMAIN,console.mistral.ai
+DOMAIN,api.mistral.ai
+
+# ============ Cohere ============
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,cohere.com
+DOMAIN,dashboard.cohere.com
+
+# ============ Hugging Face ============
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN,huggingface.co
+
+# ============ Replicate ============
+DOMAIN-SUFFIX,replicate.com
+DOMAIN,replicate.com
+DOMAIN,api.replicate.com
+
+# ============ Runway ============
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN,runwayml.com
+DOMAIN,app.runwayml.com
+
+# ============ Pika Labs ============
+DOMAIN-SUFFIX,pika.art
+DOMAIN,pika.art
+
+# ============ ElevenLabs (Voice AI) ============
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN,elevenlabs.io
+DOMAIN,api.elevenlabs.io
+
+# ============ Suno (Music AI) ============
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,suno.com
+DOMAIN,suno.com
+DOMAIN,app.suno.ai
+
+# ============ Character AI ============
+DOMAIN-SUFFIX,character.ai
+DOMAIN,character.ai
+DOMAIN,beta.character.ai
+
+# ============ Inflection AI / Pi ============
+DOMAIN-SUFFIX,inflection.ai
+DOMAIN-SUFFIX,pi.ai
+DOMAIN,pi.ai
+
+# ============ Together AI ============
+DOMAIN-SUFFIX,together.ai
+DOMAIN,api.together.xyz
+DOMAIN-SUFFIX,together.xyz
+
+# ============ Groq ============
+DOMAIN-SUFFIX,groq.com
+DOMAIN,console.groq.com
+DOMAIN,api.groq.com
+
+# ============ Jasper AI ============
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN,app.jasper.ai
+
+# ============ Copy.ai ============
+DOMAIN-SUFFIX,copy.ai
+DOMAIN,app.copy.ai
+
+# ============ Cursor AI ============
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN,cursor.com
+
+# ============ GitHub Copilot ============
+DOMAIN,api.githubcopilot.com
+DOMAIN-SUFFIX,githubcopilot.com
+
+# ============ Vercel AI ============
+DOMAIN,v0.dev
+DOMAIN-SUFFIX,v0.dev
+
+# ============ Notion AI ============
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.site
+
+# ============ Writesonic ============
+DOMAIN-SUFFIX,writesonic.com
+
+# ============ Descript ============
+DOMAIN-SUFFIX,descript.com
+
+# ============ Synthesia ============
+DOMAIN-SUFFIX,synthesia.io
+
+# ============ D-ID ============
+DOMAIN-SUFFIX,d-id.com
+
+# ============ Leonardo AI ============
+DOMAIN-SUFFIX,leonardo.ai
+DOMAIN,app.leonardo.ai
+
+# ============ Ideogram ============
+DOMAIN-SUFFIX,ideogram.ai
+
+# ============ Krea AI ============
+DOMAIN-SUFFIX,krea.ai
+
+# ============ Civitai ============
+DOMAIN-SUFFIX,civitai.com
+
+# ============ NVIDIA AI ============
+DOMAIN,build.nvidia.com
+DOMAIN-SUFFIX,nvidia.com
+
+# ============ AWS Bedrock / Amazon AI ============
+DOMAIN,bedrock.aws
+DOMAIN-SUFFIX,bedrock.aws
+
+# ============ Other AI Tools ============
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,you.com
+DOMAIN-SUFFIX,phind.com
+DOMAIN-SUFFIX,forefront.ai
+DOMAIN-SUFFIX,chatbot.com
+DOMAIN-SUFFIX,otter.ai
+DOMAIN-SUFFIX,fireflies.ai
+DOMAIN-SUFFIX,assemblyai.com
+DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,wordtune.com
+DOMAIN-SUFFIX,grammarly.com
+DOMAIN-SUFFIX,quillbot.com
+DOMAIN-SUFFIX,tome.app
+DOMAIN-SUFFIX,gamma.app
+DOMAIN-SUFFIX,beautiful.ai
+DOMAIN-SUFFIX,canva.com
+DOMAIN-SUFFIX,remove.bg
+DOMAIN-SUFFIX,photoroom.com
+DOMAIN-SUFFIX,clipdrop.co
+DOMAIN-SUFFIX,luma.ai
+DOMAIN-SUFFIX,heygen.com
+DOMAIN-SUFFIX,invideo.io
+
+# ============ AI Research / Papers ============
+DOMAIN-SUFFIX,arxiv.org
+DOMAIN-SUFFIX,paperswithcode.com
+DOMAIN-SUFFIX,semanticscholar.org
+
+# ============ Third-party Dependencies ============
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,browser-intake-datadoghq.com

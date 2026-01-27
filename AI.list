@@ -10,28 +10,14 @@ DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openaimerge.com
-DOMAIN,auth0.openai.com
-DOMAIN,chat.openai.com
-DOMAIN,ios.chat.openai.com
-DOMAIN,android.chat.openai.com
-DOMAIN,desktop.chat.openai.com
-DOMAIN,tcr9i.chat.openai.com
-DOMAIN,setup.auth.openai.com
-DOMAIN,cdn.openaimerge.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sora.com
 
 # ============ Anthropic / Claude ============
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
-DOMAIN,api.anthropic.com
-DOMAIN,statsig.anthropic.com
-DOMAIN,console.anthropic.com
-DOMAIN,docs.anthropic.com
 
 # ============ Google AI / Gemini / DeepMind ============
-# Gemini 核心域名
-DOMAIN,gemini.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,ai.google.dev
@@ -45,7 +31,6 @@ DOMAIN,ai.google
 DOMAIN,labs.google
 DOMAIN,deepmind.google
 DOMAIN,deepmind.com
-# Google 基础设施（Gemini 依赖）
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
@@ -59,121 +44,85 @@ DOMAIN,copilot.microsoft.com
 DOMAIN,copilot.cloud.microsoft
 DOMAIN,copilot.github.com
 DOMAIN-SUFFIX,bing.com
-DOMAIN,www.bing.com
-DOMAIN,edgeservices.bing.com
 DOMAIN,sydney.bing.com
 DOMAIN-SUFFIX,bingapis.com
 DOMAIN-SUFFIX,microsoftcopilot.com
 
 # ============ Midjourney ============
 DOMAIN-SUFFIX,midjourney.com
-DOMAIN,www.midjourney.com
-DOMAIN,cdn.midjourney.com
 
 # ============ Stability AI / Stable Diffusion ============
 DOMAIN-SUFFIX,stability.ai
 DOMAIN-SUFFIX,stabilityai.com
-DOMAIN,platform.stability.ai
-DOMAIN,dreamstudio.ai
 DOMAIN-SUFFIX,dreamstudio.ai
 
 # ============ Perplexity AI ============
 DOMAIN-SUFFIX,perplexity.ai
-DOMAIN,www.perplexity.ai
-DOMAIN,api.perplexity.ai
 
 # ============ Meta AI / LLaMA ============
 DOMAIN-SUFFIX,meta.ai
-DOMAIN,www.meta.ai
 DOMAIN,ai.meta.com
 DOMAIN,llama.meta.com
 
 # ============ xAI / Grok ============
 DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,grok.x.ai
-DOMAIN,grok.com
 DOMAIN-SUFFIX,grok.com
 
 # ============ Mistral AI ============
 DOMAIN-SUFFIX,mistral.ai
-DOMAIN,chat.mistral.ai
-DOMAIN,console.mistral.ai
-DOMAIN,api.mistral.ai
 
 # ============ Cohere ============
 DOMAIN-SUFFIX,cohere.ai
 DOMAIN-SUFFIX,cohere.com
-DOMAIN,dashboard.cohere.com
 
 # ============ Hugging Face ============
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,hf.co
-DOMAIN,huggingface.co
 
 # ============ Replicate ============
 DOMAIN-SUFFIX,replicate.com
-DOMAIN,replicate.com
-DOMAIN,api.replicate.com
 
 # ============ Runway ============
 DOMAIN-SUFFIX,runwayml.com
-DOMAIN,runwayml.com
-DOMAIN,app.runwayml.com
 
 # ============ Pika Labs ============
 DOMAIN-SUFFIX,pika.art
-DOMAIN,pika.art
 
 # ============ ElevenLabs (Voice AI) ============
 DOMAIN-SUFFIX,elevenlabs.io
-DOMAIN,elevenlabs.io
-DOMAIN,api.elevenlabs.io
 
 # ============ Suno (Music AI) ============
 DOMAIN-SUFFIX,suno.ai
 DOMAIN-SUFFIX,suno.com
-DOMAIN,suno.com
-DOMAIN,app.suno.ai
 
 # ============ Character AI ============
 DOMAIN-SUFFIX,character.ai
-DOMAIN,character.ai
-DOMAIN,beta.character.ai
 
 # ============ Inflection AI / Pi ============
 DOMAIN-SUFFIX,inflection.ai
 DOMAIN-SUFFIX,pi.ai
-DOMAIN,pi.ai
 
 # ============ Together AI ============
 DOMAIN-SUFFIX,together.ai
-DOMAIN,api.together.xyz
 DOMAIN-SUFFIX,together.xyz
 
 # ============ Groq ============
 DOMAIN-SUFFIX,groq.com
-DOMAIN,console.groq.com
-DOMAIN,api.groq.com
 
 # ============ Jasper AI ============
 DOMAIN-SUFFIX,jasper.ai
-DOMAIN,app.jasper.ai
 
 # ============ Copy.ai ============
 DOMAIN-SUFFIX,copy.ai
-DOMAIN,app.copy.ai
 
 # ============ Cursor AI ============
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
-DOMAIN,cursor.com
 
 # ============ GitHub Copilot ============
-DOMAIN,api.githubcopilot.com
 DOMAIN-SUFFIX,githubcopilot.com
 
 # ============ Vercel AI ============
-DOMAIN,v0.dev
 DOMAIN-SUFFIX,v0.dev
 
 # ============ Notion AI ============
@@ -194,7 +143,6 @@ DOMAIN-SUFFIX,d-id.com
 
 # ============ Leonardo AI ============
 DOMAIN-SUFFIX,leonardo.ai
-DOMAIN,app.leonardo.ai
 
 # ============ Ideogram ============
 DOMAIN-SUFFIX,ideogram.ai
@@ -206,11 +154,9 @@ DOMAIN-SUFFIX,krea.ai
 DOMAIN-SUFFIX,civitai.com
 
 # ============ NVIDIA AI ============
-DOMAIN,build.nvidia.com
 DOMAIN-SUFFIX,nvidia.com
 
 # ============ AWS Bedrock / Amazon AI ============
-DOMAIN,bedrock.aws
 DOMAIN-SUFFIX,bedrock.aws
 
 # ============ Other AI Tools ============

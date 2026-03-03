@@ -31,7 +31,7 @@ URL-REGEX,^https?:\/\/discordapp\.com\/api\/v\d+\/store\/published-listings\/sku
 
 [Script]
 # 修改用户设置响应，隐藏礼物按钮
-discord-settings = type=http-response, pattern=^https?:\/\/(discord|discordapp)\.com\/api\/v\d+\/users\/@me$, requires-body=1, max-size=262144, script-path=https://raw.githubusercontent.com/skernelx/SurgeScripts/main/discord-remove-gift-button/discord-remove-gift-button.js, timeout=15
+discord-settings = type=http-response, pattern=^https?:\/\/(discord|discordapp)\.com\/api\/v\d+\/users\/@me$, requires-body=1, max-size=262144, script-path=https://raw.githubusercontent.com/skernelx/SurgeScripts/master/discord-remove-gift-button/discord-remove-gift-button.js, timeout=15
 
 [MITM]
 hostname = %APPEND% discord.com, *.discord.com, discordapp.com, *.discordapp.com
